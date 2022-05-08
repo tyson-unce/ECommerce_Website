@@ -10,10 +10,19 @@ body{
 
 .products{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 1em;
     text-align: center;
+    padding-top: 5%;
+}
+
+.wholeTing{
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 3%;
+
 }
 
 
@@ -37,7 +46,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgba(0,0,0,0.0);
+    background-color:#fce5c6;
     font-family: 'Nunito', sans-serif;
 
 }
@@ -53,19 +62,20 @@ nav{
 .nav-links a{
     text-decoration: none;
     letter-spacing: 3px;
-    color: black;
-    border: 1px solid black;
-    padding: 3px;
+    color: rgb(70, 70, 70);
+    padding-right: 125%;
+    border-right: 1px solid black;
 }
 .nav-links li{
     list-style: none;
     
+    
 }
 
 .nav-links :hover{
-        text-shadow: 0 0 3px #000000, 0 0 5px #000000;
-        color: white;
-        background-color: #000;
+        text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+        color: rgb(114, 114, 114);
+        
 }
 
 
@@ -137,10 +147,58 @@ footer{
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     font-size: 125%;
+    color: rgb(70, 70, 70);
     
 }
 
 aside p{
   font-weight: bold;
   padding-left: 20%;
+}
+
+
+
+/* SIDE |BAR */
+
+.wrapper2{
+  padding-left: 8%;
+}
+
+.wrapper2 .sidebar{
+  width: 100%;
+  height: 100%;
+  background: #fce5c6;
+  padding: 5%;
+}
+
+.wrapper2 .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper2 .sidebar ul li{
+  padding: 10%;
+  list-style: none;
+}    
+
+.wrapper2 .sidebar ul li a{
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.wrapper2 .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper2 .sidebar ul li:hover{
+  background-color: #fdead0;
+}
+    
+.wrapper2 .sidebar ul li:hover a{
+  color: rgb(70, 70, 70);
 }
