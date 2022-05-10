@@ -29,7 +29,7 @@
     <section class="form1">
     <label>Full Name:</label>
     <br>
-    <input type ="text" name="full-name" placeholder="First, Last">
+    <input type ="text" name="full-name" placeholder="First, Last" style="width: 80%; padding: 1%; border: 3px solid rgb(70, 70, 70);">
     </section>
     
     
@@ -37,7 +37,7 @@
     <section class="form2">
     <label>Phone Number:</label>
     <br>
-    <input type ="text" name="phone-number" placeholder="(###)###-####">
+    <input type ="text" name="phone-number" placeholder="(###)###-####" style="width: 80%; padding: 1%; border: 3px solid rgb(70, 70, 70);">
     </section>
     
     
@@ -45,7 +45,7 @@
     <section class="form3">
     <label>Email:</label>
     <br>
-    <input type ="email" name="email" placeholder="example@email.com">
+    <input type ="email" name="email" placeholder="example@email.com" style="width: 80%; padding: 1%; border: 3px solid rgb(70, 70, 70);">
     </section>
     
 
@@ -57,21 +57,26 @@
       
     <label for ="message">Not seeing your favorite vinyl? Let us know here.</label>
     <br>
-    <textarea id = "message" name="message" rows="10" cols="40" placeholder="Our collection is continuing to expand so if you don't see your favorite artist, we're most likely working on it!"></textarea>
+    <textarea id = "message" name="message" rows="10" cols="40" placeholder="Our collection is continuing to expand so if you don't see your favorite artist, we're most likely working on it!" style="width: 80%; padding: 1%; border: 3px solid rgb(70, 70, 70);"></textarea>
     </section>
 
     
 
-    <section>
+    <section id="txtNoti">
     <label>I would like to get text notifications as well:</label>
       <br>
-      <select id="dropDown" name="yes/no">
+      <select id="dropDown" name="yes/no" style=" border: 3px solid rgb(70, 70, 70); padding: .5%">
         <option value="yes">Yes</option>
         <option value="no">No</option>
       </select>
       
     </section>
-    <input id=button type="submit" name="submit" value="Submit">
+
+    <section id="button">
+        <label>Submit here:</label>
+        <br>
+        <input type="submit" name="submit" value="Submit" style=" border: 3px solid rgb(70, 70, 70); padding: .5%; background-color: white">
+    </section>
     
 
 

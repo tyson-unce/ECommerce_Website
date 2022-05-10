@@ -276,15 +276,19 @@ aside p{
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
-  padding-left: 5%;
+  padding-left: 8%;
   padding-top: 5%;
+  padding-bottom: 5%;
  
 }
 
-#button{
+.button{
   background-color:rgba(0,0,0,0.0);
     color: rgb(70, 70, 70);
     font-weight: bolder;
+    text-align: center;
+    padding-right: 18%;
+
     
   }
 
@@ -296,6 +300,12 @@ aside p{
     margin-right: 20%;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
+
+  }
+
+  #txtNoti{
+    text-align: center;
+    padding-right: 18%;
 
   }
 
